@@ -5,7 +5,7 @@ How to use?
 
 (2)Add synthetic data, for instance borderline-2 using the file-'smote.ipynb'. Save the experimental plus synthetic data into a single .csv file. e.g. Sheet2 (name-'realPlusSynBL2') in the 'relayHeckAllData.xlsx' file.
 
-(3)To run a Random Forest model with synthetic data, use 'rf_pure_synthetic_data.py'. In this .py file replace the existing file names with your two file names i.e. experimental data set and mixed data set.
+(3)To run a Random Forest model with synthetic data, use 'rf_pure_synthetic_data.py'. In this .py file replace the existing file names with your two file names i.e. only experimental data set and mixed (experimental plus synthetic) data set.
 
 (4)To run a Random Forest model only with experimental data use 'RandomForestRealData.py'
 
